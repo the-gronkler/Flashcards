@@ -1,0 +1,16 @@
+pl:
+  edu:
+    pja:
+      tpo02:
+        filename: "dictionary.csv"
+
+spring:
+  profiles:
+    active: default
+  main:
+#    banner-mode: "off"
+    web-application-type: NONE
+  banner:
+    location: classpath:logo-app
+
+
